@@ -52,3 +52,22 @@ h3{
     text-align: center;
     padding: 15px;
 }
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .container, .container2 {
+        flex-direction: column;
+    }
+
+    .dolar, .dolar1 {
+        width: 100%;
+    }
+}
